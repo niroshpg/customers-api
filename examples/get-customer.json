@@ -1,0 +1,14 @@
+{
+    "_id" : "5b725ef74f74144cda8c84fb",
+    "firstName" : "Nirosh",
+    "lastName" : "Gunaratne",
+    "addresses" : [
+        {
+            "line1" : "45 Farmham Road",
+            "suburb" : "Quakers Hills",
+            "state" : "NSW",
+            "postcode" : 2768,
+            "country" : "Australia"
+        }
+    ]
+}

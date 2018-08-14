@@ -1,0 +1,21 @@
+{
+    "_id" : "5b725ef74f74144cda8c84fb",
+    "firstName" : "Nirosh",
+    "lastName" : "Gunaratne",
+    "addresses" : [
+        {
+            "line1" : "60 Park Road",
+            "suburb" : "Castle Hill",
+            "state" : "NSW",
+            "postcode" : 2329,
+            "country" : "Australia"
+        },
+        {
+            "line1" : "90 Vue Street",
+            "suburb" : "Blacktown",
+            "state" : "NSW",
+            "postcode" : 2356,
+            "country" : "Australia"
+        }
+    ]
+}

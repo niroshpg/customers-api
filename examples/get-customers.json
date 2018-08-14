@@ -1,0 +1,30 @@
+[
+  {
+    "_id" : "5b725ef74f74144cda8c84fb",
+    "firstName" : "Mike",
+    "lastName" : "Scott",
+    "addresses" : [
+        {
+            "line1" : "45 Farmham Road",
+            "suburb" : "Quakers Hills",
+            "state" : "NSW",
+            "postcode" : 2763,
+            "country" : "Australia"
+        }
+    ]
+  },
+  {
+    "_id" : "5b725ef74f741sdfsfsdfdsdb",
+    "firstName" : "Ben",
+    "lastName" : "Robert",
+    "addresses" : [
+        {
+            "line1" : "82 Tully Place",
+            "suburb" : "Glenwood",
+            "state" : "NSW",
+            "postcode" : 2768,
+            "country" : "Australia"
+        }
+    ]
+  },
+]

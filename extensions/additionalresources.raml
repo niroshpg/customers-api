@@ -1,0 +1,51 @@
+#%RAML 1.0 Extension
+# File located at:
+# /extensions/additionalResources.raml
+extends: ../customers-api.raml
+usage: This extension defines additional resources for version 2 of the API.
+
+uses:
+    usertypes:      ../types/usertypes.raml
+
+resourceTypes:
+  collection:       !include ../resourceTypes/collection.raml
+  collection-item:  !include ../resourceTypes/collection-item.raml
+
+/Orders:
+  type:
+    collection:
+      request-example: !include ../examples/post-order.json
+      response-example: !include ../examples/get-orders.json
+  /{id}:
+    type:
+      collection-item:
+        get-response-example: !include ../examples/get-order.json
+        patch-request-example: !include ../examples/patch-order.json
+        put-request-example: !include ../examples/put-order.json
+    /customers:
+      type:
+        collection-item:
+          get-response-example: !include ../examples/get-customers.json
+          patch-request-example: |
+            {}
+          put-request-example: |
+            {}
+    /products:
+      type:
+        collection-item:
+          get-response-example: !include ../examples/get-products.json
+          patch-request-example: |
+            {}
+          put-request-example: |
+            {}
+/Products:
+  type:
+    collection:
+      request-example: !include ../examples/post-product.json
+      response-example: !include ../examples/get-products.json
+  /{id}:
+    type:
+      collection-item:
+        get-response-example: !include ../examples/get-product.json
+        patch-request-example: !include ../examples/patch-product.json
+        put-request-example: !include ../examples/put-product.json
