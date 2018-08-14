@@ -9,5 +9,5 @@ Following related two project demostrate API usage
 Example cusotmer data provider:    
 https://github.com/niroshpg/customers-provider.git
 
-Example customer data consumer:
+Example customer data consumer:  
 https://github.com/niroshpg/customers-consumer.git
